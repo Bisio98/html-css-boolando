@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+img{
+    width: 100%;
+}
+
+.product_section{
+    width: 75%;
+    margin: auto;
+    margin-top: 2%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.product{
+    position: relative;
+    width: 30%;
+    display: inline-block;
+    padding: 15px;
+    text-align: left;
+}
+
+.photo{
+    position: relative;
+}
+
+.photo:hover{
+    cursor: pointer;
+}
+
+.photo:hover .show{
+    display: none;
+}
+
+.photo:hover .hide{
+    display: inline-block;
+}
+
+.hide{
+    display: none;
+}
+
+.show,.hide{
+    position: relative;
+}
+
+.heart{
+    position: absolute;
+    background-color: white;
+    font-size: 40px;
+    top: 20px;
+    right: 0px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.info{
+    position: absolute;
+    bottom: 30px;
+    color: white;
+    font-weight: 700;
+}
+
+.sales{
+    background-color: red;
+    padding: 5px;
+}
+
+.eco{
+    background-color: green;
+    padding: 5px;
+}
+
+.data{
+    position: relative;
+    margin-top: 10px;
+}
+
+.brand{
+    font-size: 14px;
+}
+
+.real_price{
+    color: red;
+    font-weight: 700;
+}
+
+.old_price{
+    text-decoration: line-through;
+    color: black;
+    font-weight: 500;
+}
